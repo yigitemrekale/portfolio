@@ -255,7 +255,10 @@
                     <h2 class="premium-title">Birlikte <span class="gradient-text">Çalışalım</span></h2>
                     <p>"Fikir paylaşımına, teknik sohbetlere ve yeni bağlantılar kurmaya her zaman vaktim var. Kahve eşliğinde projelerinizi konuşmak isterseniz formu doldurmanız yeterli."</p>
 
-                    <form name="contact" method="POST" data-netlify="true" class="contact-form">
+                   <form name="contact" method="POST" data-netlify="true" class="contact-form" action="/">
+    
+                        <input type="hidden" name="form-name" value="contact" />
+
                         <div class="form-group">
                             <input type="text" name="name" placeholder="Adınız Soyadınız" required>
                         </div>
