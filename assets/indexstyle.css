@@ -1188,6 +1188,10 @@ body::before {
     opacity: 0.6;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .license-badge {
     margin-left: 15px;
     padding: 4px 10px;
