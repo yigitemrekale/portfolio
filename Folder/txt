@@ -1,0 +1,12 @@
+1. Renk Paleti (Hex Kodları)
+
+
+Arka Plan (Koyu): #0F1113 (Ana zemin rengi)
+
+Kartlar/Yan Panel: #1C1F22 (Hafif gri-siyah, derinlik katmak için)
+
+Vurgu Mavisi (Butonlar): #1DA1F2 veya #00A3FF (Aksiyon butonları için)
+
+Ana Metin: #E1E8ED (Saf beyaz yerine hafif griye çalan beyaz, okunabilirliği artırır)
+
+İkincil Metin: #8899A6 (Kullanıcı adı, lokasyon gibi detaylar için gri)
