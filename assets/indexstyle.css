@@ -1008,7 +1008,6 @@ body::before {
     border: 1px solid rgba(var(--primary-color), 0.2);
 }
 
-/* Mobil Uyumluluk */
 @media (max-width: 768px) {
     .experience-container {
         padding-left: 20px;
@@ -1035,7 +1034,6 @@ body::before {
 }
 
 
-/* --- İletişim Bölümü Genel Stilleri --- */
 .contact-glow-card {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -1048,21 +1046,19 @@ body::before {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* Form Düzeni */
 .contact-form {
     margin: 35px auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    text-align: left; /* Input içindeki yazılar sola yaslı olsun */
+    text-align: left; 
 }
 
-/* Input ve Textarea Stilleri */
 .form-group input, 
 .form-group textarea {
     width: 100%;
     padding: 16px;
-    background: rgba(0, 0, 0, 0.2); /* Koyu arka plan */
+    background: rgba(0, 0, 0, 0.2); 
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     color: #ffffff;
@@ -1071,16 +1067,14 @@ body::before {
     transition: all 0.3s ease;
 }
 
-/* Focus (Tıklanınca) Durumu */
 .form-group input:focus, 
 .form-group textarea:focus {
     outline: none;
-    border-color: var(--accent-color); /* Senin ana vurgu rengin */
+    border-color: var(--accent-color); 
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 0 15px rgba(29, 161, 242, 0.2);
 }
 
-/* Alt Kısım (Sosyal Medya Bölümü) */
 .contact-footer {
     margin-top: 30px;
     padding-top: 25px;
@@ -1106,7 +1100,6 @@ body::before {
     transform: translateY(-3px);
 }
 
-/* --- LIGHT MODE AYARLARI --- */
 [data-theme="light"] .contact-glow-card {
     background: rgba(0, 0, 0, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -1216,7 +1209,6 @@ html {
     color: #555;
 }
 
-/* Mobil Uyumluluk */
 @media (max-width: 768px) {
     .footer-content {
         grid-template-columns: 1fr;
@@ -1258,7 +1250,7 @@ html {
     color: white;
     border: none;
     cursor: pointer;
-    display: none; /* JS ile görünür yapacağız */
+    display: none; 
     z-index: 1000;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     transition: 0.3s;
